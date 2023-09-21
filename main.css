@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'MedievalSharp', cursive;
+    font-weight: normal;
+}
+
+body {
+    background-color: #d9dac7;
+}
+body,
+input {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #5e5f33;
+    color: #12130d;
+}
+
+header nav li{
+    display: inline;
+    margin: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #12130d;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plataform img {
+    height: 24px;
+}
+
+.plataform li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #5e5f33;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.game-front {
+    margin-right: 32px;
+}
+
+section .container .game-front img {
+    height: 600px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a {
+    text-decoration: none;
+}
+
+#contacts .container {
+    display: block;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: #5e5f33;
+    color: #12130d;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #898a54;
+}
+
+input:focus {
+    outline: #5e5f33;
+}
+
+footer {
+    background-color: #5e5f33;
+    color: #12130d;
+    padding: 16px 0;
+}
